@@ -11,7 +11,7 @@
    
    第四，运行./darknet detect cfg/yolov2.cfg yolov2.weights data/person.jpg代码将会弹出如图所示的检测完成图片。
    
-![image](https://github.com/zenmeshuolong/Target-detection-and-binocular-ranging-system-based-on-YOLO/blob/master/images/person.jpg)
+![image](https://github.com/zenmeshuolong/Target-detection-and-binocular-ranging-system-based-on-YOLO/blob/master/images/person.png)
    
 ### PYNQ-Z2实现
    利用PYNQ-Z2的实现可以实现在硬件层面的对CNN过程的加速。
@@ -24,7 +24,7 @@
    
    第四，实现YOLOv2的Block Design设计。在vivado中创建新的工程，选择为RTL Project，并选择xc7z020clg400-1作为目标板。在MANAGER→Settings中进行IP的添加，选择第三步生成的IP。建立新的Block Design并添加vivado文件夹下的配置文件pynqyolo.tcl以及约束文件PYNQ-Z2.xdc。并完成Block Design设计如下图所示。
    
-![image](https://github.com/zenmeshuolong/Target-detection-and-binocular-ranging-system-based-on-YOLO/blob/master/images/blockdesign.jpg)
+![image](https://github.com/zenmeshuolong/Target-detection-and-binocular-ranging-system-based-on-YOLO/blob/master/images/blockdesign.png)
 
 点击 Great HDL Wrapper完成Block Design的包装。最后生成bit文件。
 
