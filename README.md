@@ -1,11 +1,11 @@
 # Target detection and binocular ranging system based on YOLO
 ## 目标检测
 ### 软件实现
-    软件实现可以直接利用软件来直接实现YOLO的目标检测，同样可以用于后面硬件检测的验证。
-    在软件环境下实现YOLOv2首先需要打开darknet-master文件夹，此文件夹中已经包含了yolov2.weights文件，此文件为预训练的权重文件。
-    然后需要提供一个Linux环境，可在虚拟机中安装Linux系统或在windows系统中安装Linux模拟环境的软件，并成功配置相应的所需的环境。
-    第三，在Linux环境下cd到darknet-master目录，输入make命令来运行其中的Makefile文件。
-    第四，运行./darknet detect cfg/yolov2.cfg yolov2.weights data/dog.jpg代码将会弹出如图所示的检测完成图片。
+   软件实现可以直接利用软件来直接实现YOLO的目标检测，同样可以用于后面硬件检测的验证。
+   在软件环境下实现YOLOv2首先需要打开darknet-master文件夹，此文件夹中已经包含了yolov2.weights文件，此文件为预训练的权重文件。
+   然后需要提供一个Linux环境，可在虚拟机中安装Linux系统或在windows系统中安装Linux模拟环境的软件，并成功配置相应的所需的环境。
+   第三，在Linux环境下cd到darknet-master目录，输入make命令来运行其中的Makefile文件。
+   第四，运行./darknet detect cfg/yolov2.cfg yolov2.weights data/dog.jpg代码将会弹出如图所示的检测完成图片。
 ### PYNQ-Z2实现
     利用PYNQ-Z2的实现可以实现在硬件层面的对CNN过程的加速。
     首先，实现PYNQ-Z2的YOLOv2的目标检测过程需要完成如下硬件准备。准备一块PYNQ-Z2的开发板，SD卡，一条可以用于数据传输的USB数据线，网线。
