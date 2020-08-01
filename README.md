@@ -3,7 +3,7 @@
 ### 软件实现
    软件实现可以直接利用软件来直接实现YOLO的目标检测，同样可以用于后面硬件检测的验证。
    
-   在软件环境下实现YOLOv2首先需要打开darknet-master文件夹，此文件夹中已经包含了yolov2.weights文件，此文件为预训练的权重文件。
+   在软件环境下实现YOLOv2首先需要去YOLO官网下载darknet-master文件，并在官网中下载yolov2.weights文件，此文件为预训练的权重文件。
    
    然后需要提供一个Linux环境，可在虚拟机中安装Linux系统或在windows系统中安装Linux模拟环境的软件，并成功配置相应的所需的环境。
    
