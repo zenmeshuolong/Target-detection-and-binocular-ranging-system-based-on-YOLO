@@ -10,6 +10,7 @@
    第三，在Linux环境下cd到darknet-master目录，输入make命令来运行其中的Makefile文件。
    
    第四，运行./darknet detect cfg/yolov2.cfg yolov2.weights data/person.jpg代码将会弹出如图所示的检测完成图片。
+   
 ![image](https://github.com/zenmeshuolong/Target-detection-and-binocular-ranging-system-based-on-YOLO/blob/master/images/person.jpg)
    
 ### PYNQ-Z2实现
