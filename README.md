@@ -9,7 +9,7 @@
    
    第三，在Linux环境下cd到darknet-master目录，输入make命令来运行其中的Makefile文件。
    
-   第四，运行./darknet detect cfg/yolov2.cfg yolov2.weights data/dog.jpg代码将会弹出如图所示的检测完成图片。
+   第四，运行./darknet detect cfg/yolov2.cfg yolov2.weights data/person.jpg代码将会弹出如图所示的检测完成图片。
    
 ### PYNQ-Z2实现
    利用PYNQ-Z2的实现可以实现在硬件层面的对CNN过程的加速。
@@ -36,7 +36,7 @@ Block design设计图
    
    第三，打开软件Developer Toolkit Browser v1.8.0 (Kinect for Windows)，同时获取RGB图片和depth图片。
    
-#### 目标测距
+### 目标测距
    第一，将采集到的RGB图片和depth图片上传到板卡中。
    
    第二，运行yolov2.ipynb可实现目标物体的测距。
